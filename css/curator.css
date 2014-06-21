@@ -1,0 +1,43 @@
+/* @override 
+	http://h2v.me/essai/css/curator.css
+	http://lil.share2.fr/plugins/curator/css/curator.css
+	http://ydikoi.net/plugins/auto/curator/v0.1.0/css/curator.css */
+
+body{
+	margin-right: auto;
+	margin-left: auto;
+	width: 550px;
+	background-color: white;
+	margin-top: 25px;
+	position: relative;
+}
+form{
+	
+}
+label{
+	display: block;
+	font: bold 0.77em "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+input#titre,input#nom_site, input#url_site, textarea{
+	-moz-box-shadow: 0 0 5px #c4c4c6;
+	box-shadow: 0 0 5px #c4c4c6;
+	width: 100%;
+	border: thin solid gray;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	display: inline;
+	background-color: #f0f0f0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+select#id_parent{
+	margin-left: 20px;
+	background-color: #feb6b6;
+}
+textarea#text_area{
+	height: 130px;
+}
